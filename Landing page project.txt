@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My Startup 🚀</h1>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Our Product</h2>
+  <p>Best solution for your needs</p>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <ul>
+    <li>Fast</li>
+    <li>Secure</li>
+    <li>Easy to Use</li>
+  </ul>
+</section>
+
+<section>
+  <h2>About</h2>
+  <p>We provide smart solutions.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>info@gmail.com</p>
+</section>
+
+</body>
+</html>
