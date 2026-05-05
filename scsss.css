@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="landing.html">Landing Page</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h2>Hello, I'm a Web Developer 👩‍💻</h2>
+  <img src="https://via.placeholder.com/150" alt="profile">
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a CSE student doing internship.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Java</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p>Portfolio Website</p>
+  <p>Landing Page</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: yourmail@gmail.com</p>
+</section>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>My Startup 🚀</h1>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Our Product</h2>
+  <p>Best solution for your needs</p>
+</section>
+
+<section>
+  <h2>Features</h2>
+  <ul>
+    <li>Fast</li>
+    <li>Secure</li>
+    <li>Easy to Use</li>
+  </ul>
+</section>
+
+<section>
+  <h2>About</h2>
+  <p>We provide smart solutions.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>info@gmail.com</p>
+</section>
+
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+.hero {
+  background-color: lightblue;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+}
